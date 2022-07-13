@@ -1,0 +1,72 @@
+@import '../abstract/variaveis';
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 64px 72px 0 75px;
+  height: 64px;
+  width: 1296px;
+  left: 72px;
+  top: 64px;
+
+  .logo-img {
+      cursor: pointer;
+      width: 159px;
+      height: 40px;
+  }
+  nav {
+      padding: 0 293px 0 272px;
+      flex-grow: 1;
+      ul {
+          font-size: 18px;
+          display: flex;
+          justify-content: space-between;
+          li {
+              a {
+                  display: flex;
+                  color: $color-text-light;
+                  font-weight: 600;
+                  text-decoration: none;
+              }
+              .about {
+                  color: $blue;
+              }
+              .jobs {                    
+              position: relative;
+                  img {
+                      position: absolute;
+                      height: 24px;
+                      width: 24px;
+                      top: -19px;
+                      right: -31px;
+                  }                
+              }     
+          }
+      }
+  }
+  .bt-contact {
+      display: flex;
+      background: $dark-blue;
+      color: white;
+      width: 180px;
+      height: 64px;  
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.7s;
+  }
+  .bt-contact:hover {
+      background: $bt;
+      color: white;
+      transition: 0.5s;
+      transform: scale(1.1,1.1);
+  }
+  .bt-contact:active {
+    background: $ac;
+  }
+}
+
+@media screen {
+    
+}

@@ -1,0 +1,242 @@
+@import '../abstract/variaveis';
+
+#third-page {
+  position: relative;
+  height: 2124px;
+  font-family: $fontf;
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+  .top {
+    width: 1202px;
+    height: 192px;
+    padding: 152px 103px 0 135px;
+    display: flex;
+    .loguinho {
+      width: 24px;
+      height: 24px;
+      margin-right: 176px;
+    }
+    .text {
+      width: 668px;
+      height: 192px;
+      margin-right: 158px;
+      h1 {
+        margin-bottom: 24px;
+        width: 150px;
+        height: 24px;
+        color: $blue;
+        span {
+          margin-right: 24px;
+        }
+      }
+      h2 {
+        width: 668px;
+        height: 144px;
+        color: $dark-blue;
+        font-weight: bold;
+        font-size: $tam-t;
+      }
+    }
+    .img {
+      align-items: center;
+      display: flex;
+      margin: 48px 0 80px 0;
+    }
+    .img1 {
+      display: flex;
+      width: 64px;
+      height: 64px;
+      align-items: center;
+      justify-content: center;
+      .left {
+        position: absolute
+      }
+    }
+    .img2 {
+      display: flex;
+      width: 64px;
+      height: 64px;
+      margin-left: 48px;
+      align-items: center;
+      justify-content: center;
+      .right {
+        position: absolute;
+        transform: rotate(180deg)
+      }
+    }
+    .img1:hover, .img2:hover {
+      background: $blue;
+      border-radius: 50%;
+    }
+    .img1:active, .img2:active {
+      background: $ac;
+      border-radius: 50%;
+      transition: 0.5s;
+    }
+  }
+  .medium {
+    display: flex;
+    width: 1170px;
+    height: 584px;
+    margin: 96px 136px 0 134px;
+    align-items: center;
+    .transform {
+      display: flex;
+      background: white;
+      border-radius: 48px;
+      .um, .dois, .tres, .quatro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 293px;
+        height: 480px;
+        background: white;
+        border-radius: 48px;
+        transition: 0.5s;
+        cursor: pointer;
+        .st {
+          display:column;
+          flex-direction: column;
+          width: 180px;
+          height: 200px;
+          img {
+            padding: 0 26px 40px 26px;
+            position: relative;
+            width: 128px;
+            height: 128px;
+          }
+          p {
+            text-align: center;
+            width: 180px;
+            height: 32px;
+            color: $blue;
+            transition: 0.5s;
+          }
+        }
+      }
+    .um:hover, .dois:hover, .tres:hover, .quatro:hover {
+      background-color: $blue;
+      transform: scale(1.1,1.1);
+      p {
+        color: white;
+      }
+    }
+    .um:active, .dois:active, .tres:active, .quatro:active {
+      background-color: $ac;
+      transform: scale(1.1,1.1);
+      p {
+        color: white;
+      }
+    }
+   }
+  }
+  .final {
+    margin-top: 165px;
+    width: 1440px;
+    height: 786px;
+    display: flex;
+  }
+  .img-p {
+    display: flex;
+    .img-phone {
+      position:absolute;
+      left: 0px;
+    }
+    .bg-rosa {
+      position:absolute;
+      left: 134px;
+      top: 1341px;
+      z-index: -1;
+    }
+    .one {
+      width: 8px;
+      height: 8px;
+      background: rgb(255, 255, 255);
+      border-radius: 50%;
+      box-shadow: 0px 1px 5px 3px #888888;
+      margin: 770px 0 0 321px;
+      cursor: pointer;
+      transition: 0.5s;
+      z-index: 2;
+    }
+    .two {
+      width: 8px;
+      height: 8px;
+      background: rgb(255, 255, 255);
+      border-radius: 50%;
+      margin: 770px 0 0 28px;
+      box-shadow: 0px 1px 5px 3px #888888;
+      transition: 0.5s;
+      cursor: pointer;
+      z-index: 2;
+    }
+    .tree {
+      width: 8px;
+      height: 8px;
+      background: rgb(255, 255, 255);
+      border-radius: 50%;
+      margin: 770px 0 0 28px;
+      box-shadow: 0px 1px 5px 3px #888888;
+      transition: 0.5s;
+      cursor: pointer;
+      z-index: 2;
+    }
+     .one:hover, .two:hover, .tree:hover {
+      background: $blue;
+      transition: 0.5s;
+    }
+  }
+  .ev {
+    display: column;
+    width: 568px;
+    height: 494px;
+    margin: 152px 142px 134px 310px;
+    .text {
+      width: 568px;
+      height: 144px;
+      .log-h1 {
+        display: flex;
+        width: 255px;
+        height: 24px;
+        margin-bottom: 40px;
+        .loguinho {
+          width: 24px;
+          height: 24px;
+        }
+        h1 {
+          font-style: normal;
+          font-weight: 600px;
+          font-size: 18px;
+          color: $dark-blue;
+          span {
+            font-weight: 600px;
+            font-size: 18px;
+            color: $color-text-light;
+            margin: 0 24px 0 75px;
+          }
+        }
+      }
+      p {
+        font-weight: 700;
+        font-size: 32px;
+      }
+    }
+    .num {
+      margin-top: 80px;
+      width: 256px;
+      height: 270px;
+
+      h1 {
+        font-family: $fontf;
+        font-weight: 600;
+        font-size: 200px;
+        color: $blue;
+        padding: 0 0 28px 0;
+      }
+      p {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+      }
+    }
+  }
+}

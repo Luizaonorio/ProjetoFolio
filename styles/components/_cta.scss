@@ -1,0 +1,75 @@
+@import '../abstract/variaveis';
+
+#fifth-page {
+  .cta {
+    display: flex;
+    margin: 128px 72px 158px 72px;
+    .imgs {
+      display: flex;
+      position: absolute;
+      .log {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin: 158px 1099px 534.38px 169px;
+      }
+      .bgs {
+        position: absolute;
+        z-index: -2;
+        margin: 0;
+      }
+      .phone {
+        position: absolute;
+        z-index: 0;
+        margin: 0 486px -164.86px 63px;
+      }
+      .bgp {
+        position: absolute;
+        z-index: -1;
+        top: 48px;
+        left: 793px;
+      }
+    }
+    
+    .text-cta {
+      color: white;
+      margin: 134px 264px 134px 665px;
+      h1 {
+        width: 154px;
+        height: 24px;
+        margin-bottom: 24px;
+        span {
+          margin-right: 24px;
+        }
+      }
+      h2 {
+        width: 367px;
+        height: 288px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 72px;
+        letter-spacing: -0.5px;
+        margin-bottom: 54px;
+      }
+      .button {
+        display: flex;
+        width: 201px;
+        height: 64px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        justify-content: center;
+        color: $blue;
+        transition: 0.5;
+        cursor: pointer;
+      }
+      .button:hover {
+        transition: 0.5;
+        background: $bt;
+      }
+    }
+  }
+}

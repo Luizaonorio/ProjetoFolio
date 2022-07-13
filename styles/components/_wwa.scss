@@ -1,0 +1,211 @@
+@import '../abstract/variaveis';
+
+#second-page {
+  position: relative;
+  background: $dark-blue;
+  height: 1670px;
+  left: 0px;
+  color: white;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    height: 490px;
+    padding: 0 135px;
+    .l2 {
+      position: absolute;
+      left: -51px;
+    }
+    .loguinho {
+      margin-top: 128px;
+      width: 24px;
+      height: 24px;
+      padding-right: 176px;
+    }
+    .text {
+      margin-top: 128px;
+      height: 64px;;
+      width: 668px;
+      height: 192px;
+      z-index: 2;
+      h1 {
+        font-size: $tam-p;
+        padding-bottom: 24px;
+        span {
+          margin-right: 24px;
+          color: $color-text-light;
+        }
+      }
+      h2 {
+        font-size: $tam-t;
+        font-weight: 144px;
+      }
+    }
+    .arrows {
+      width: 144px;
+      height: 64px;
+      margin-top: 176px; 
+      display: flex;
+      z-index: 2;
+      .right {
+        transform: rotateY(180deg);
+        margin: 0 0 0 16px;
+        width: 64px;
+        height:64px;
+        cursor: pointer;
+        transition: 0;
+      }
+      .left {
+        width: 64px;
+        height:64px;
+        cursor: pointer;
+        transition: 0;
+      }
+      .right:hover, .left:hover {
+        background-color: $blue;
+        border-radius: 50%;
+      }
+      .right:active, .left:active {
+        background: $ac;
+      }
+    }
+  }
+  .horiz {
+    display: flex;
+    width:24px;
+    height: 508px;
+    margin-left: 35px;
+  }
+  .list-years {
+    width: 45px;
+    height: 528px;
+    ul{
+      li {
+        font-size: 18px;
+        font-weight: 600px;
+        font-style: $fontf;
+        padding: 0 155px 102px 121px;
+        color:$color-text-light;
+        a { 
+          cursor: pointer;
+          transition: 0.5s;
+          display: flex;
+          .img1 {
+            width: 24px;
+            height: 4px;
+            margin-left:px;
+          }
+          .img2 {
+            padding-left: 21px;
+            z-index: 4;
+          }
+        }
+        a:hover {
+          color: white;
+        }
+      }
+    } 
+  }
+      .bg {
+        .pc {
+          position:absolute;
+          width: 970px;
+          height: 598px;
+          right: 135px;
+          top: 454px;
+          z-index: 2;
+        }
+        .bg-d {
+          position:absolute;
+          width: 802px;
+          height: 1052px;
+          top: -40px;
+          right: 0;
+          z-index: 1;
+        }
+        /*.line-a {
+          position: absolute;
+          top: -10px;
+          width: 486.78px;
+          height: 784.48px;;
+          left: -14px;
+          z-index: 0;
+          //esta atrapalhando a lista de anos
+        }*/
+      }
+      .tj {
+        .tx-l {
+          width: 668px;
+          height: 320px;
+          padding: 205px 100px 0 121px;
+          display: flex;
+          .line {
+            width: 2px;
+            height: 80px;
+            margin-right: 198px;
+          }
+          .text-design {
+            width: 468px;
+            height: 320px;
+            h1 {
+              font-size: 32px;
+              font-weight: 700px;
+              margin-bottom: 40px;
+            }
+            p {
+              font-size: 18px;
+              font-weight: 400px;
+              color: $color-text-light;
+              margin-bottom: 40px;
+            }
+            .bt-contact2 {
+              display: flex;
+              background: $blue;
+              color: white;
+              width: 180px;
+              height: 64px;  
+              justify-content: center;
+              align-items: center;
+              border-radius: 8px;
+              cursor: pointer;
+              transition: 0.7s;
+            }
+            .bt-contact2:hover {
+              background: $bt;
+              transition: 0.5s;
+              transform: scale(1.1,1.1);
+            }
+            .bt-contact2:active {
+              background: $ac;
+            }
+          }
+  
+          }
+        }
+        .tj{
+          display: flex;
+          .number {
+            width: 402px;
+            height: 402px;
+            margin-top: 128px;
+            font-family: $fontf;
+            text-align: content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1 {
+              font-size: 200px;
+              width: 245px;
+              height: 206px;
+            }
+            p {
+              width: 171px;
+              height: 32px;
+              font-size: 24px;
+              font-weight: 700px;
+              text-align: center;
+              word-spacing: -0.2px;
+            }
+        }
+      }
+}
